@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003728630873921B3EF75788 /* IssueBodyMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA4FE7A43028815F66B7B156 /* IssueBodyMetadata.swift */; };
+		03D2D594C02BC55F17A1D2CA /* Glass.swift in Sources */ = {isa = PBXBuildFile; fileRef = B028C3FA3220B2600829BA59 /* Glass.swift */; };
+		29AF1EF5F5A62F021AF06622 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0216DD14B89DF1EE41CD597D /* AppConfig.swift */; };
+		365EBFA48C0D40BA326920D3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF053FF0B0AB1A2FF7631C7B /* Extensions.swift */; };
+		414BD4500E3BA35061453F07 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0247ABCEF9D2A22F9CBC29 /* AppState.swift */; };
+		447D4ED578AF7777C315C450 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 506E290460F847E32A539A94 /* RootView.swift */; };
+		4B2DFBFAEC25398AB90C5A3D /* RepoPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04214BB2513BBF97C3D5195C /* RepoPickerView.swift */; };
+		4F062744B1A4563C223A38A9 /* RepoSwitcherMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB87766BA865A1548881740 /* RepoSwitcherMenu.swift */; };
+		51C7AF39020FAC9B5A9EE532 /* GitHubModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330E4D517BE633F85FA3C755 /* GitHubModels.swift */; };
+		51EF1C3F2AE53C047AED7BC6 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A17CC7931B24AB30F035A0 /* KeychainStore.swift */; };
+		5399D1DB4827BCA29AB14F6B /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C88407CFCD4B4DB834DF89 /* MainTabView.swift */; };
+		5CACABE91E0A28ADCB6B680A /* AddIssueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3CC3E89D2AD9A32AB910A66 /* AddIssueView.swift */; };
+		7B0B18A96372D3F3239C38E9 /* MyTodosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4705E6DDFFFF2FCFEBC65EC /* MyTodosView.swift */; };
+		8517D03D0EEE2774D0E99962 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748B9507E9CF34F5D6AD6F0B /* LoginView.swift */; };
+		99400B3CCE1DEA352D87E982 /* AllIssuesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358B355E58464FE06B7995AA /* AllIssuesView.swift */; };
+		A6C827AAB7612F4D61DC7D10 /* IssueDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0810FF5B4DDAABBC0B398AA2 /* IssueDetailView.swift */; };
+		B70068083153C08788207045 /* TodoGlassApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CDF6A431C783352DD0052E /* TodoGlassApp.swift */; };
+		DDEB8374F4451328FC33FCEE /* IssueRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6988276E7E92E140EE5F536 /* IssueRow.swift */; };
+		E3BB35DFFD4DB2BE8451D8AF /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B89A6F9C78D3277F127A7F /* GitHubAPI.swift */; };
+		E71C1D1A066FE26098D81CEA /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F5D41CD182F0A07C8C5CEC /* AuthManager.swift */; };
+		EAFC048569DEA0B9BECD88F0 /* WindowAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7489F73A765E3F0A812F14F /* WindowAccessor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0216DD14B89DF1EE41CD597D /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		04214BB2513BBF97C3D5195C /* RepoPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoPickerView.swift; sourceTree = "<group>"; };
+		0810FF5B4DDAABBC0B398AA2 /* IssueDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueDetailView.swift; sourceTree = "<group>"; };
+		0F0247ABCEF9D2A22F9CBC29 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		10A17CC7931B24AB30F035A0 /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		22B89A6F9C78D3277F127A7F /* GitHubAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubAPI.swift; sourceTree = "<group>"; };
+		2AB87766BA865A1548881740 /* RepoSwitcherMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoSwitcherMenu.swift; sourceTree = "<group>"; };
+		330E4D517BE633F85FA3C755 /* GitHubModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubModels.swift; sourceTree = "<group>"; };
+		358B355E58464FE06B7995AA /* AllIssuesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllIssuesView.swift; sourceTree = "<group>"; };
+		45CDF6A431C783352DD0052E /* TodoGlassApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoGlassApp.swift; sourceTree = "<group>"; };
+		506E290460F847E32A539A94 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		68F5D41CD182F0A07C8C5CEC /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		748B9507E9CF34F5D6AD6F0B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		AF053FF0B0AB1A2FF7631C7B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B028C3FA3220B2600829BA59 /* Glass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glass.swift; sourceTree = "<group>"; };
+		C3CC3E89D2AD9A32AB910A66 /* AddIssueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIssueView.swift; sourceTree = "<group>"; };
+		C7489F73A765E3F0A812F14F /* WindowAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowAccessor.swift; sourceTree = "<group>"; };
+		CA4FE7A43028815F66B7B156 /* IssueBodyMetadata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueBodyMetadata.swift; sourceTree = "<group>"; };
+		D4705E6DDFFFF2FCFEBC65EC /* MyTodosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTodosView.swift; sourceTree = "<group>"; };
+		D6988276E7E92E140EE5F536 /* IssueRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssueRow.swift; sourceTree = "<group>"; };
+		E6EA12023123CF2D49917BA3 /* TodoGlass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoGlass.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C88407CFCD4B4DB834DF89 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0DEF16950F2D58C84E9007A7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				330E4D517BE633F85FA3C755 /* GitHubModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1D3AE426EC9B35AD7AABFC42 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				22B89A6F9C78D3277F127A7F /* GitHubAPI.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		20EEE64F61C4B47CFA6CB061 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				68F5D41CD182F0A07C8C5CEC /* AuthManager.swift */,
+				10A17CC7931B24AB30F035A0 /* KeychainStore.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		315F5FFBB2DCF1E79360C1B3 = {
+			isa = PBXGroup;
+			children = (
+				E637963E3E8A775CAE6AD71E /* Sources */,
+				32B7D5ED88EB66B269CE8588 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32B7D5ED88EB66B269CE8588 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E6EA12023123CF2D49917BA3 /* TodoGlass.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E22F16673D0873184A4228C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				AF053FF0B0AB1A2FF7631C7B /* Extensions.swift */,
+				CA4FE7A43028815F66B7B156 /* IssueBodyMetadata.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DE53102DC1F6E599D54AC9FB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C3CC3E89D2AD9A32AB910A66 /* AddIssueView.swift */,
+				358B355E58464FE06B7995AA /* AllIssuesView.swift */,
+				B028C3FA3220B2600829BA59 /* Glass.swift */,
+				0810FF5B4DDAABBC0B398AA2 /* IssueDetailView.swift */,
+				D6988276E7E92E140EE5F536 /* IssueRow.swift */,
+				748B9507E9CF34F5D6AD6F0B /* LoginView.swift */,
+				F6C88407CFCD4B4DB834DF89 /* MainTabView.swift */,
+				D4705E6DDFFFF2FCFEBC65EC /* MyTodosView.swift */,
+				04214BB2513BBF97C3D5195C /* RepoPickerView.swift */,
+				2AB87766BA865A1548881740 /* RepoSwitcherMenu.swift */,
+				506E290460F847E32A539A94 /* RootView.swift */,
+				C7489F73A765E3F0A812F14F /* WindowAccessor.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E637963E3E8A775CAE6AD71E /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0216DD14B89DF1EE41CD597D /* AppConfig.swift */,
+				0F0247ABCEF9D2A22F9CBC29 /* AppState.swift */,
+				45CDF6A431C783352DD0052E /* TodoGlassApp.swift */,
+				20EEE64F61C4B47CFA6CB061 /* Auth */,
+				0DEF16950F2D58C84E9007A7 /* Models */,
+				1D3AE426EC9B35AD7AABFC42 /* Networking */,
+				DE53102DC1F6E599D54AC9FB /* UI */,
+				8E22F16673D0873184A4228C /* Utilities */,
+			);
+			name = Sources;
+			path = TodoGlass/Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D257C811B7A2526604BAE717 /* TodoGlass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F9F33B4E1A38CDE997E0C54 /* Build configuration list for PBXNativeTarget "TodoGlass" */;
+			buildPhases = (
+				8CF64029E0CF9C2E05B892EC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TodoGlass;
+			packageProductDependencies = (
+			);
+			productName = TodoGlass;
+			productReference = E6EA12023123CF2D49917BA3 /* TodoGlass.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76945ADD96C6D9C6949327FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					D257C811B7A2526604BAE717 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = D6C059405B987E04078657F9 /* Build configuration list for PBXProject "TodoGlass" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 315F5FFBB2DCF1E79360C1B3;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D257C811B7A2526604BAE717 /* TodoGlass */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CF64029E0CF9C2E05B892EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CACABE91E0A28ADCB6B680A /* AddIssueView.swift in Sources */,
+				99400B3CCE1DEA352D87E982 /* AllIssuesView.swift in Sources */,
+				29AF1EF5F5A62F021AF06622 /* AppConfig.swift in Sources */,
+				414BD4500E3BA35061453F07 /* AppState.swift in Sources */,
+				E71C1D1A066FE26098D81CEA /* AuthManager.swift in Sources */,
+				365EBFA48C0D40BA326920D3 /* Extensions.swift in Sources */,
+				E3BB35DFFD4DB2BE8451D8AF /* GitHubAPI.swift in Sources */,
+				51C7AF39020FAC9B5A9EE532 /* GitHubModels.swift in Sources */,
+				03D2D594C02BC55F17A1D2CA /* Glass.swift in Sources */,
+				003728630873921B3EF75788 /* IssueBodyMetadata.swift in Sources */,
+				A6C827AAB7612F4D61DC7D10 /* IssueDetailView.swift in Sources */,
+				DDEB8374F4451328FC33FCEE /* IssueRow.swift in Sources */,
+				51EF1C3F2AE53C047AED7BC6 /* KeychainStore.swift in Sources */,
+				8517D03D0EEE2774D0E99962 /* LoginView.swift in Sources */,
+				5399D1DB4827BCA29AB14F6B /* MainTabView.swift in Sources */,
+				7B0B18A96372D3F3239C38E9 /* MyTodosView.swift in Sources */,
+				4B2DFBFAEC25398AB90C5A3D /* RepoPickerView.swift in Sources */,
+				4F062744B1A4563C223A38A9 /* RepoSwitcherMenu.swift in Sources */,
+				447D4ED578AF7777C315C450 /* RootView.swift in Sources */,
+				B70068083153C08788207045 /* TodoGlassApp.swift in Sources */,
+				EAFC048569DEA0B9BECD88F0 /* WindowAccessor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5923BA9273F914E138E63693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisnewsome.todoglass;
+				PRODUCT_NAME = TodoGlass;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6281C29BACB264D847B333D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisnewsome.todoglass;
+				PRODUCT_NAME = TodoGlass;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7DBC73A6BD8600AB528FB50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = TodoGlass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisnewsome.todoglass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = COMPLETE;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DEF641442C121C8B4CC88095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = TodoGlass/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 0.1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.chrisnewsome.todoglass;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = COMPLETE;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F9F33B4E1A38CDE997E0C54 /* Build configuration list for PBXNativeTarget "TodoGlass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6281C29BACB264D847B333D9 /* Debug */,
+				5923BA9273F914E138E63693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D6C059405B987E04078657F9 /* Build configuration list for PBXProject "TodoGlass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF641442C121C8B4CC88095 /* Debug */,
+				A7DBC73A6BD8600AB528FB50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76945ADD96C6D9C6949327FB /* Project object */;
+}
