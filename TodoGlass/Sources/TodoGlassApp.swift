@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct TodoGlassApp: App {
+struct GitHubTodoApp: App {
     @StateObject private var appState = AppState()
 
     var body: some Scene {

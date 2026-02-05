@@ -1,6 +1,6 @@
-# TodoGlass
+# GitHub Todo
 
-TodoGlass is an iOS SwiftUI app that stores your todos as GitHub Issues. It uses OAuth to sign in, lets you pick a repository, and gives you three tabs: **My Todos**, **All Issues**, and **Add**.
+GitHub Todo is an iOS SwiftUI app that stores your todos as GitHub Issues. It uses OAuth to sign in, lets you pick a repository, and gives you three tabs: **My Todos**, **All Issues**, and **Add**.
 
 ## Features
 - OAuth sign-in with GitHub
@@ -39,7 +39,7 @@ xcodegen
 
 ### 4) Run in Simulator
 ```bash
-xcodebuild -scheme TodoGlass -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 15' -derivedDataPath build
+xcodebuild -scheme GitHubTodo -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 15' -derivedDataPath build
 APP_PATH=$(ls -d build/Build/Products/Debug-iphonesimulator/*.app | head -n1)
 xcrun simctl install booted "$APP_PATH"
 xcrun simctl launch booted com.chrisnewsome.todoglass
@@ -47,7 +47,7 @@ xcrun simctl launch booted com.chrisnewsome.todoglass
 
 Or open the project in Xcode:
 ```bash
-open TodoGlass.xcodeproj
+open GitHubTodo.xcodeproj
 ```
 
 ## Notes

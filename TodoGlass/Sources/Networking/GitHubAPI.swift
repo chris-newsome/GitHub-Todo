@@ -35,7 +35,7 @@ final class GitHubAPI: @unchecked Sendable {
         request.setValue("Bearer \(token)", forHTTPHeaderField: "Authorization")
         request.setValue("application/vnd.github+json", forHTTPHeaderField: "Accept")
         request.setValue("2022-11-28", forHTTPHeaderField: "X-GitHub-Api-Version")
-        request.setValue("TodoGlass", forHTTPHeaderField: "User-Agent")
+        request.setValue("GitHub Todo", forHTTPHeaderField: "User-Agent")
         return request
     }
 

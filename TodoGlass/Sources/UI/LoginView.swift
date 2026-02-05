@@ -8,7 +8,7 @@ struct LoginView: View {
             Spacer()
 
             VStack(spacing: 12) {
-                Text("TodoGlass")
+                Text("GitHub Todo")
                     .font(.system(size: 42, weight: .semibold, design: .rounded))
                 Text("GitHub Issues, refracted into a clear workflow.")
                     .font(.system(.title3, design: .rounded))

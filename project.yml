@@ -1,4 +1,4 @@
-name: TodoGlass
+name: GitHubTodo
 options:
   bundleIdPrefix: com.chrisnewsome
   deploymentTarget:
@@ -23,7 +23,7 @@ settings:
       SWIFT_COMPILATION_MODE: wholemodule
 
 targets:
-  TodoGlass:
+  GitHubTodo:
     type: application
     platform: iOS
     sources:
@@ -32,4 +32,4 @@ targets:
       - TodoGlass/Resources
     settings:
       base:
-        PRODUCT_NAME: TodoGlass
+        PRODUCT_NAME: "GitHub Todo"
